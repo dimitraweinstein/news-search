@@ -1,9 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App component renders App 1`] = `
-<DocumentFragment>
-  <p>
-    Loading...
-  </p>
-</DocumentFragment>
+<div>
+  <form>
+    <label
+      for="userQuery"
+    >
+      Search
+    </label>
+    <input
+      id="userQuery"
+      type="text"
+      value=""
+    />
+    <button
+      aria-label="search-articles"
+    >
+      Submit
+    </button>
+  </form>
+  <img
+    alt="loading spinner"
+    src="https://icon-library.com/images/ajax-loading-icon/ajax-loading-icon-2.jpg"
+  />
+</div>
 `;
