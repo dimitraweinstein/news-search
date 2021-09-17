@@ -34,7 +34,10 @@ export default class NewsSearchContainer extends Component {
         />
       
         {
-          loading ? (<> Loading...</>) : (
+          loading ? (<img
+            // eslint-disable-next-line max-len
+            src="https://icon-library.com/images/ajax-loading-icon/ajax-loading-icon-2.jpg"
+            alt="loading spinner" />) : (
             <>
               <ArticleList
                 articles={articles}
