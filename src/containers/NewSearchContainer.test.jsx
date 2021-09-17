@@ -1,17 +1,24 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-// import { rest } from 'msw';
-// import { setupServer } from 'msw/node';
+import { rest } from 'msw';
+import { setupServer } from 'msw/node';
 import userEvent from '@testing-library/user-event';
 import NewsSearchContainer from './NewsSearchContainer';
+import QueryData from '../fixtures/queryData.json';
 
-// const server = setupServer(
-//   rest.get(`https://newsapi.org/v2/everything?q=&apiKey=1035d26ed87d480dad7b5b19c00d27a9&qInTitle=${userQuery}`, (req, res, ctx) => {
-//     return res(ctx.json());
-//   })
-// );
+const server = setupServer(
+  // eslint-disable-next-line max-len
+  rest.get('https://newsapi.org/v2/everythingbaseball', (req, res, ctx) => {
+    return res(ctx.json(QueryData));
+  })
+);
 
 describe('NewsSearchContainer', () => {
+  beforeAll(() => server.listen());
+  afterAll(() => server.close());
+  
   it('should display a list of news articles', async () => {
     render(<NewsSearchContainer />);
 
@@ -24,7 +31,7 @@ describe('NewsSearchContainer', () => {
     const submitButton = await screen.findByRole('button', { name: 'search-articles' });
     userEvent.click(submitButton);
     
-    const ul = screen.findByRole('list', { name: 'articles' });
+    const ul = await screen.findByRole('list', { name: 'articles' });
     expect(ul).toMatchSnapshot();    
     
   });

@@ -1,3 +1,275 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NewsSearchContainer should display a list of news articles 1`] = `Promise {}`;
+exports[`NewsSearchContainer should display a list of news articles 1`] = `
+<ul
+  aria-label="articles"
+>
+  <li>
+    <article>
+      <h3>
+        What Can We Learn From a Cat Charging Into a Baseball Game?
+      </h3>
+      <h4>
+        Carina Chocano
+      </h4>
+      <p>
+        A demonstration of grace even in the most baffling of circumstances.
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        The MLB is testing out Robot Umpires to optimize baseball.
+      </h3>
+      <h4>
+        Thom Dunn
+      </h4>
+      <p>
+        Major League Baseball has been developing an Automated Ball-Strike System that trains computers to determine whether or not a pitch arrives over home plate within the designated ideal strike zone. The Atlantic League of Professional Baseball — one of the prem…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Watch: Commentator tries to apologize after mocking baseball player's accent
+      </h3>
+      <h4>
+        Carla Sinclair
+      </h4>
+      <p>
+        Commentator Jack Morris was asked by partner Matt Shepard yesterday 
+what the Detroit Tigers' strategy should be against Los Angeles Angels' star Shohei Ohtani, who is Japanese. So Morris did what any racist might do in this situation and answered with an As…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        MLB Is Ending 70 Year Partnership With Baseball Card Manufacturer Topps
+      </h3>
+      <h4>
+        Jaclyn Diaz
+      </h4>
+      <p>
+        Fanatics is expected to be the new partner with MLB to manufacture trading cards, edging out baseball's long-time partner, Topps.
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        US Open Women’s Semifinal Predictions Including Aryna Sabalenka vs Leylah Fernandez - Last Word on Baseball
+      </h3>
+      <h4>
+        Jim Smith
+      </h4>
+      <p>
+        &lt;ol&gt;&lt;li&gt;US Open Women’s Semifinal Predictions Including Aryna Sabalenka vs Leylah Fernandez  Last Word on Baseball
+&lt;/li&gt;&lt;li&gt;Leylah Fernandez, Felix Auger-Aliassime set social media ablaze with magical US Open runs  Yahoo Canada Sports
+&lt;/li&gt;&lt;li&gt;Félix Auger-A…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        B.C.’s Larry Walker makes history as he’s inducted into the Baseball Hall of Fame - News 1130
+      </h3>
+      <h4>
+        N/A
+      </h4>
+      <p>
+        &lt;ol&gt;&lt;li&gt;B.C.’s Larry Walker makes history as he’s inducted into the Baseball Hall of Fame  News 1130
+&lt;/li&gt;&lt;li&gt;'I share this honour with every Canadian': Larry Walker inducted to Baseball Hall of Fame  CBC.ca
+&lt;/li&gt;&lt;li&gt;The impact of Canadian legend Larry Walk…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Yankees star Derek Jeter inducted into Baseball Hall of Fame
+      </h3>
+      <h4>
+        JOHN KEKIS AP Sports Writer
+      </h4>
+      <p>
+        Former Yankees shortstop and captain Derek Jeter, Colorado star Larry Walker, Ted Simmons of the Cardinals and Brewers, and the late labor executive Marvin Miller have been inducted into the Baseball Hall of Fame
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Robert E. Lee statue, Hurricane Larry, Baseball Hall of Fame: 5 things to know Wednesday
+      </h3>
+      <h4>
+        USA TODAY, Editors
+      </h4>
+      <p>
+        Virginia will remove its largest Confederate monument, Hurricane Larry will soon start impacting the East Coast and more news to start your Wednesday.
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Fuel Your Passion for B2B Marketing with These Famous Baseball Quotes
+      </h3>
+      <h4>
+        Nick Nelson
+      </h4>
+      <p>
+        A few weeks ago, Major League Baseball enjoyed a historic moment with its Field of Dreams Game, played at the cornfield-surrounded site in Iowa where the legendary movie was based.
+Naturally, this event brought on waves of nostalgia among those who cherish th…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Let's Do Better Releases "The Decline of Black Baseball" Collection
+      </h3>
+      <h4>
+        info@hypebeast.com (HYPEBEAST), HYPEBEAST
+      </h4>
+      <p>
+        Let's Do Better is spotlighting the shrinking number of Black players in the MLB with a "The Decline of Black Baseball" collection. Consisting of a special t-shirt and a re-release of the brand's Juneteenth New York Yankees fitted cap, the offering both salut…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        ‘Baseball, But Fun’ Brings Wave Fighting Mayhem to the Sport
+      </h3>
+      <h4>
+        Joel Couture
+      </h4>
+      <p>
+        Baseball, But Fun doesn’t have you running bases much, but you will be putting you bat to good use in this sport-themed action game. I’m not sure who your little baseball player has...
+The post ‘Baseball, But Fun’ Brings Wave Fighting Mayhem to the Sport appe…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        : I don’t want baseball to be ‘quick’ — it should embrace its bizarre lengthiness
+      </h3>
+      <h4>
+        Charles Passy
+      </h4>
+      <p>
+        A visit to the Hall of Fame in Cooperstown reminds this fan that baseball is still a 'field of dreams'
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        : MLB taps Fanatics to replace Topps as baseball trading card maker — here’s what that means for the value of your cards
+      </h3>
+      <h4>
+        Weston Blasi
+      </h4>
+      <p>
+        According to reporting from The Wall Street Journal, Fanatics also obtained sports trading card licenses with the NBA and NFL.
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        The Met Is Showcasing One of the Largest Collections of Baseball Cards Ever Assembled
+      </h3>
+      <h4>
+        info@hypebeast.com (HYPEBEAST), HYPEBEAST
+      </h4>
+      <p>
+        Jefferson R. Burdick was an electrician from Upstate New York who amassed over 30,000 baseball cards during his life. He has been hailed in the past as the "father of card collecting" and even had cards with an estimated value in the millions. Instead of taki…
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Topps, After Losing Baseball Licensing Deal, Ends Its I.P.O. Plans
+      </h3>
+      <h4>
+        Lauren Hirsch
+      </h4>
+      <p>
+        Major League Baseball and the Major League Baseball Player’s Association are ending their agreement with Topps in favor of one with Fanatics, an upstart sports collectible company.
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        The End Of An Era For Topps Baseball (Podcast)
+      </h3>
+      <h4>
+        N/A
+      </h4>
+      <p>
+        Source: Bloomberg, 12:44
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Royals' Perez Giving Fans Reason to Watch September Baseball
+      </h3>
+      <h4>
+        N/A
+      </h4>
+      <p>
+        Kansas City, Mo. (AP) -- In retrospect, the Chicago White Sox probably should have walked Salvador Perez with first base open in the first inning of a scoreless game Sunday, even if it would have gone against just about every traditional baseball strategy.
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Bryan Ruby Announces He's Gay; 1st Active Pro Baseball Player to Come Out
+      </h3>
+      <h4>
+        Scott Polacek
+      </h4>
+      <p>
+        Bryan Ruby, who plays for the Salem-Keizer Volcanoes, publicly announced he is gay. &lt;a...
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Mets Rumors: Sandy Alderson Not Expected to Run Baseball Operations for 2022 Season
+      </h3>
+      <h4>
+        Rob Goldberg
+      </h4>
+      <p>
+        The New York Mets will hire someone to run baseball operations in 2022 while Sandy Alderson resumes his role as team president, according to &lt;a...
+      </p>
+    </article>
+  </li>
+  <li>
+    <article>
+      <h3>
+        Baseball Hall of Fame 2021: Induction Ceremony Start Time and TV Info
+      </h3>
+      <h4>
+        Michelle Bruton
+      </h4>
+      <p>
+        The 2021 Baseball Hall of Fame induction ceremony will see one of the greatest to ever play the game enshrined in Cooperstown, New York on Wednesday...
+      </p>
+    </article>
+  </li>
+</ul>
+`;
